@@ -1,0 +1,55 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Local configuration
+local.properties
+
+# Android generated files
+captures/
+.externalNativeBuild/
+.cxx/
+output.json
+
+# APK / AAB files
+*.apk
+*.aab
+*.ap_
+*.aar
+
+# Keystore files
+*.jks
+*.keystore
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Kotlin
+.kotlin/
+
+# Kapt
+kapt/
+kapt3/
+
+# Google Services / Firebase
+# Якщо файл google-services.json містить реальні ключі проєкту,
+# краще не додавати його в публічний репозиторій.
+# google-services.json
+
+# Secrets
+secrets.properties
+*.properties.local
+
+# Generated documentation
+docs/build/
